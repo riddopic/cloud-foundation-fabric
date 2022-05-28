@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ENV SQUID_VERSION=4.6 \
   SQUID_CACHE_DIR=/var/spool/squid \
